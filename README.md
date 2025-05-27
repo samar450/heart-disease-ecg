@@ -18,3 +18,16 @@ A deep learning project for classifying ECG images as Normal or Abnormal using t
 ## Run Streamlit App
 
 - streamlit run scripts/streamlit_app.py
+
+## Dataset
+
+The ECG image data used in this project was sourced from [Roboflow Universe](https://universe.roboflow.com), specifically:
+
+**Heart Disease - v1**  
+Exported via Roboflow on October 9, 2023, consisting of 491 annotated images in a multi-class classification format.
+
+Roboflow is an open platform for computer vision datasets and tools.  
+
+Images were resized to 256x256 with auto-orientation preprocessing.  
+Used here for academic and non-commercial purposes only.
+
